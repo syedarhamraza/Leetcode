@@ -30,7 +30,6 @@ public:
 int main() {
     Solution sol;
     vector<int> nums = {4,1,2,1,2};
-    cout<< "The single number is: " << sol.singleNumber(nums);
-
+    cout<< "The single number is: " << sol.singleNumber(nums); //Output: 4
 }
 
