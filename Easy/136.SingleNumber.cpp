@@ -1,5 +1,5 @@
 //
-// Created by arham on 14/08/2025.
+// Created by Arham on 14/08/2025.
 //
 //Question
 /*Given a non-empty array of integers nums, every element appears twice except for one.
