@@ -2,6 +2,13 @@
 // Created by Syed Arham Raza on 15/08/2025.
 //
 
+/*
+Done using Kadane's Algorithm
+which solves the problem in O(n) time complexity.
+and states that if the current sum becomes negative, we reset it to zero.
+
+*/
+
 #include <iostream>
 #include <vector>
 
@@ -12,7 +19,7 @@ public:
     int maxSubArray(vector<int> &nums) {
         int maxSum = INT_MIN, currSum = 0;
         for (int value: nums) {
-            currSum += nums[value];
+            currSum += value;
             maxSum = max(currSum, maxSum);
             if (currSum < 0) {
                 currSum = 0;
